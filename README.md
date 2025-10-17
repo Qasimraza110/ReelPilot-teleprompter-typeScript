@@ -2,7 +2,7 @@
 
 ReelPilot is an intelligent web platform that helps users record themselves reading scripts and receive instant AI-driven performance feedback.
 It uses Deepgram for speech-to-text and analysis — giving insights on clarity, pacing, confidence, and delivery.
-
+ 
 Built with the MERN stack and Next.js, ReelPilot is designed for smooth video capture, smart analytics, and an elegant user experience.
 
 🌟 Core Features
