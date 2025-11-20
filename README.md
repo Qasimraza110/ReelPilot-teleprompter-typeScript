@@ -1,4 +1,4 @@
-🎬 ReelPilot — AI Script Reading & Video Analysis Platform
+ 🎬 ReelPilot — AI Script Reading & Video Analysis Platform
 
 ReelPilot is an intelligent web platform that helps users record themselves reading scripts and receive instant AI-driven performance feedback.
 It uses Deepgram for speech-to-text and analysis — giving insights on clarity, pacing, confidence, and delivery.
