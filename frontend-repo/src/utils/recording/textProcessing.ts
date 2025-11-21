@@ -8,7 +8,7 @@ const commonReplacements: { [key: string]: string[] } = {
   why: ["wi"],
   widely: ["wide", "widly", "wildly", "wildlife"],
   will: ["wil", "we'll"],
-  wind: ["wend"],
+  wind: ["wend"],   
   window: ["windo"],
   wine: ["whine"],
   with: ["whith", "wit", "wiff"],
@@ -309,3 +309,4 @@ export const enhancedSpeechMatching = (
   }
   return matchedCount;
 };
+
