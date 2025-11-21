@@ -3,7 +3,7 @@ const AUTH_STORE_NAME = 'auth';
 // Extend openDb if auth store doesn't exist
 export const openAuthDb = () => {
   return new Promise((resolve, reject) => {
-    const request = indexedDB.open('ReelPilotAuthDB', 1); // Separate DB for auth for clarity/security
+    const request = indexedDB.open('ReelPilotAuthDB', 1); // Separate DB for auth for clarity/security   
 
     request.onupgradeneeded = (event) => {
       const db = event.target.result;
@@ -57,4 +57,5 @@ export const removeAuthToken = async () => {
     request.onsuccess = () => resolve();
     request.onerror = (event) => reject((event.target).error);
   });
+
 };
