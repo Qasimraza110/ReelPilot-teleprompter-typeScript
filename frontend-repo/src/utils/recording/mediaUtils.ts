@@ -5,7 +5,7 @@ export const getCameraAndMicrophoneStream = async({facingMode}: {facingMode: str
 
 
   try {
-    const devices = await navigator.mediaDevices.enumerateDevices();
+    const devices = await navigator.mediaDevices.enumerateDevices();   
     const audioInputs = devices.filter((d) => d.kind === "audioinput");
     
     const constraints = {
@@ -85,3 +85,4 @@ export const prewarmMicrophone = async (): Promise<void> => {
     );
   }
 };
+
