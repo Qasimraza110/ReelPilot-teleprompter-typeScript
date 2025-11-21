@@ -3,7 +3,7 @@
 // Types for messages
 type InitMessage = {
   type: "init";
-  width: number;
+  width: number; 
   height: number;
 };
 
@@ -126,5 +126,6 @@ self.onmessage = async (event: MessageEvent<WorkerInMessage>) => {
     }
   }
 };
+
 
 
